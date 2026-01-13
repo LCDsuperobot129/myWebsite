@@ -5,6 +5,8 @@ body {
   height: 100%;
 
   overflow-x: hidden;
+
+  background-color: #fcfcfc;
 }
 
 * {
@@ -43,7 +45,7 @@ body {
 
     z-index: 1000;
 
-    font-family: "DM Sans", sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.925);
 }
 
 .logo {
@@ -54,6 +56,8 @@ body {
     color: white;
 
     text-decoration: none;
+
+    font-family: "DM Sans", serif;
 }
 
 .navbar a {
@@ -68,6 +72,8 @@ body {
     text-decoration: none;
 
     margin-left: 20px;
+
+    font-family: "DM Sans", sans-serif;
 }
 
 .navbar a::before {
@@ -211,18 +217,18 @@ body {
 
 .generalInfo_section {
     width: 100%;
-    height: 500px;
-    background-color: white;
+    background-color: rgba(255, 204, 204, 0);
     
     /* This pushes it back down below the parallax area */
-    margin-top: 900px; 
+    margin-top: 1005px; 
 
     position: relative;
+
     z-index: 5;
 }
 
 .learnMore_button {
-    padding: 10px 20px;
+    padding: 10px 17.5px;
 
     color: black;
 
@@ -242,7 +248,7 @@ body {
 
     left: 27.75rem;
 
-    top: -722.5px;
+    top: -840.5px;
 
     transition: transform 0.15s ease-out, color 0.15s ease-out, border 0.15s ease-out, background-color 0.15s ease-out, box-shadow 0.15s ease-out;
 
@@ -264,4 +270,15 @@ body {
 
 .learnMore_button:active {
     transform: scale(0.9);
+}
+
+.departmentSection {
+    width: 100%;
+    height: 350px;
+
+    background-color: #ffcaca;
+
+    position: relative;
+
+    top: -725px;
 }
