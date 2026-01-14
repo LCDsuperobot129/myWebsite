@@ -68,13 +68,19 @@ body {
 
     font-weight: 400;
 
-    color: white;
-
     text-decoration: none;
 
     margin-left: 20px;
 
     font-family: "DM Sans", sans-serif;
+}
+
+.currentPage {
+    color: rgb(255, 176, 176);
+}
+
+.not_currentPage {
+    color: white;
 }
 
 .navbar a::before {
@@ -183,6 +189,12 @@ body {
     filter: drop-shadow(0px 5px 7px rgba(26, 26, 26, 0.863));
 
     margin-top: -3px;
+
+    text-decoration: none;
+}
+
+a  {
+    text-decoration: none;
 }
 
 .mainPage_group {
@@ -298,7 +310,7 @@ body {
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: 2px solid rgba(255, 255, 255, 0.384);
     box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
     
     color: white;
