@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
 
   background: #fcfcfc;
-  background: linear-gradient(180deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 87.5%, rgba(255, 97, 97, 0.534) 100%);
+  background: linear-gradient(180deg,rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 80%, rgba(255, 97, 97, 0.534) 100%);
 }
 
 * {
@@ -97,6 +97,11 @@ body {
 
 .navbar a:hover::before {
     width: 100%;
+}
+
+textarea::placeholder {
+    color: #3b3b3b;
+    opacity: 0.75;
 }
 
 .rectangleLocation {
@@ -223,6 +228,52 @@ a  {
 
     /* Optional hover effect */
 .shrink-btn:hover {
+    background-color: #b81515;
+}
+
+.shrink-submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-right: 20px;
+    padding-left: 20px;
+
+    border-radius: 12.5px;
+
+    font-size: 1.1rem;
+
+    background-color: rgb(233, 19, 19);
+
+    color: white;
+
+    font-family: "DM Sans", serif;
+    
+    -webkit-appearance: none;
+    appearance: none;
+    
+    cursor: pointer;
+    
+    border: none;
+
+    transition: transform 0.1s ease, background-color 0.2s ease;
+
+    filter: drop-shadow(0px 5px 7px rgba(26, 26, 26, 0.527));
+
+    margin-top: -3px;
+
+    text-decoration: none;
+}
+
+.shrink-submit:active {
+        transform: scale(0.9); /* Shrinks to 90% of original size */
+    }
+
+    /* Optional hover effect */
+.shrink-submit:hover {
     background-color: #b81515;
 }
 
