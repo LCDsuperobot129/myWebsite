@@ -556,3 +556,13 @@ a  {
   font-size: 2.5em;
   fill: #000000;
 }
+
+.circleFloat {
+    animation: levitate 3s ease-in-out infinite;
+}
+
+@keyframes levitate {
+    0% {transform: translateY(0px);}
+    50% {transform: translateY(20px);}
+    100% {transform: translateY(0px);}
+}
